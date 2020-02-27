@@ -1,0 +1,64 @@
+
+/* Cards productos */
+.contenedor {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(179, 103, 103);
+    height: 400px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: royalblue; 
+    width: 220px; 
+    height: 320px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.imgProducto {
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: red;
+    width: 200px; 
+}
+
+.marca {
+    margin-right: 5px;
+}
+
+.contenedorMarca {
+    display: flex;
+}
+
+.contenedorProcesador {
+    display: flex;
+}
+/* Fin cards productos */
+
+
+/* Estrellas de valoración */
+.contenedor-star {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 50px;
+}
+
+.imgStar {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Fin estrellas de valoración */
