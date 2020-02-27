@@ -30,10 +30,26 @@
         height: 200px;
     }
 
-    .nombre {
-        border: 1px solid black;
+    .contenedor-info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: red;
+        width: 200px; 
     }
 
+    .marca {
+        margin-right: 5px;
+    }
+
+    .contenedorMarca {
+        display: flex;
+    }
+
+    .contenedorProcesador {
+        display: flex;
+    }
 
 </style>
 </head>
@@ -51,14 +67,7 @@
 
 </div> -->
 
-<div class="contenedor" id="contenedor">
-
-        
-
-        
-        
-
-</div>
+<div class="contenedor" id="contenedor"></div>
 
 <script>
 
@@ -117,10 +126,18 @@
             document.getElementById("contenedor").innerHTML +=
             '<div class="div1">'+
                 '<img class="imgProducto" src='+Ordenador[i].img+' alt="">'+
-                '<div class="">'+
-                    '<p class="nombre">'+Ordenador[i].marca+'</p>'+
+                '<div class="contenedor-info">'+
+                    '<div class="contenedorMarca">'+
+                    '<p class="marca">'+Ordenador[i].marca+'</p>'+
+                    '<p class="modelo">'+Ordenador[i].modelo+'</p>'+
                 '</div>'+
-                
+                '<div class="contenedorProcesador">'+
+                    '<p class="procesador">'+Ordenador[i].procesador+'</p>'+
+                    '<p class="ram">/ '+Ordenador[i].ram+'</p>'+
+                    '<p class="hd"> / '+Ordenador[i].hd+'</p>'+
+                '</div>'+
+                    '<p class="precio">'+Ordenador[i].precio+'</p>'+  
+                '</div>'+     
             '</div>'; 
         }
 
