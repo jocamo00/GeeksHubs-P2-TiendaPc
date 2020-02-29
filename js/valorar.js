@@ -1,35 +1,3 @@
-/* Funcionalidad valoración */
-/* 
-var starRegular = [
-    {
-        img1: "img/starRegular",
-        img2: "img/starRegular",
-        img3: "img/starRegular",
-        img4: "img/starRegular",
-        img5: "img/starRegular"
-    }
-]
-
-var starSolid = [
-    {
-        img1: "img/starRegular",
-        img2: "img/starRegular",
-        img3: "img/starRegular",
-        img4: "img/starRegular",
-        img5: "img/starRegular"
-    }
-]
-
-for(var i = 0; i<starRegular.length; i++){
-    document.getElementById("contenedor-star").innerHTML +=
-            '<div class="star">'+
-                '<img class="imgStarRegular" src='+starRegular[i].img1+' alt="">'+     
-            '</div>';  
-
-
-}  */
-/* Fin funcionalidad valoración */
-
 /* var starRegular = [
     {
         img1:"img/starRegular.png",
@@ -52,7 +20,7 @@ for(var i = 0; i<starRegular.length; i++){
  */
 
 
-    let estrella = 'img/starRegular.png';
+    /* let estrella = 'img/starRegular.png';
 
     for(let i = 0; i < 5; i++){
        let e = document.getElementById("demo").innerHTML += '<img class="imgStar" id="imgStar" onclick="cambioEstrella()" src=' +estrella+ ' alt="">'; 
@@ -60,9 +28,53 @@ for(var i = 0; i<starRegular.length; i++){
     }
 
     function cambioEstrella(){
+        let elemento = document.getElementById(id);
         document.getElementById("imgStar").style.backgroundColor = "red";
-    }
+    }  */
+
+    /* let estrella = 'img/starRegular.png';
+    let array = [];
+    let cadena;
     
+    for(let i = 0; i < 5; i++){
+        let e = document.getElementById("demo").innerHTML += '<img class="imgStar" id="imgStar'+[i]+'" onclick="cambioEstrella()" src=' +estrella+ ' alt="">'; 
+        cadena = array.push(e);
+
+     } 
+     
+
+    function cambioEstrella(){
+        let elemento = document.getAttribute("id");  
+        console.log(elemento);
+    
+    } 
+ */
+
+ 
+let estrellas = 5;
+let array = [];
+
+ for(let i = 0; i < estrellas; i++){
+    let e = document.getElementById("demo").innerHTML += '<img class="imgStar" id="imgStar'+[i]+'" onclick="cambioEstrella()" src= "img/starRegular.png" alt="">'; 
+    
+    array.push(e);
+    
+    
+ } 
+
+ function cambioEstrella(){
+    
+    if(array[0]){
+        document.getElementById("imgStar0").style.backgroundColor = "red";
+        console.log(array[0]);
+    } 
+    if (array[1]){
+        document.getElementById("imgStar1").style.backgroundColor = "blue";
+        console.log(array[1]);
+    }
+} 
+
+     
 
 
 
