@@ -131,6 +131,16 @@
 /* Fin newsletter */
 
 
+/* Footer */
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38,38,38);
+    color: rgb(255, 255, 255);
+    height: 3rem;
+}
+/* Fin footer */
 
 
 
