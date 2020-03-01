@@ -45,6 +45,9 @@
 
 
 /* Card producto */
+.txt-seccion-productos {
+    margin-top: 5rem;
+}
 .container-producto {
     display: flex;
     flex-direction: column;
@@ -88,6 +91,46 @@
     height: 1.4rem;
 }
 /* Fin card producto */
+
+
+/* Newsletter */
+.container-newsletter {
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(57,129,250);
+    height: 10rem;
+}
+
+.txt-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-newsletter {
+    display: flex;
+    justify-content: center;
+}
+
+.input-newsletter {
+    border-style: none;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(57,129,250);
+    width: 25rem;
+}
+
+.btn-newsletter {
+    border-style: none;
+    background-color: rgb(38,38,38);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-left: 0.5rem;
+}
+/* Fin newsletter */
+
+
 
 
 
