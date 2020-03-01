@@ -75,5 +75,14 @@
     padding: 1.5rem;
 }
 
+.txt-encabezado {
+    color: rgb(255, 255, 255);
+}
+
+.slider {
+    margin-top: 0.10rem;
+    background-size: cover;
+    background-position: center;
+}
 
 /* Fin cabecera */
