@@ -35,6 +35,23 @@
 }
 /* Fin cabecera */
 
+
+/* Barra navegación versión NO móvil */
+.container-navEscritorio {
+    /* display: flex;
+    background-color: rgb(57,129,250);
+    margin-top: 0.05rem; */
+}
+
+.container-nav-enlaces {
+    /* display: flex;
+    flex-direction: row; */
+}
+
+
+/* Fin barra de navegación versión no móvil */
+
+
 /* .padding-rf {
     padding-right:0px !important;
 }
