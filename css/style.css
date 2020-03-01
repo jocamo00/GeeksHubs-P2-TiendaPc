@@ -38,14 +38,26 @@
 
 /* Barra navegación versión NO móvil */
 .container-navEscritorio {
-    /* display: flex;
+    display: flex;
+    align-items: center;
     background-color: rgb(57,129,250);
-    margin-top: 0.05rem; */
+    height: 5rem;
+    margin-top: 0.05rem; 
 }
 
 .container-nav-enlaces {
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    justify-content: space-between;
+    width: 60rem;
+    
+}
+
+.nav-enlaces {
+    color: rgb(255, 255, 255);
+}
+
+.nav-enlaces:hover {
+    color:rgb(38,38,38);
 }
 
 
