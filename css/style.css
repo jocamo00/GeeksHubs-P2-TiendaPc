@@ -1,52 +1,3 @@
-
-/* Cards productos */
-.contenedor {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: rgb(179, 103, 103);
-    height: 400px;
-}
-
-.div1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: royalblue; 
-    width: 220px; 
-    height: 320px;
-    margin-left: 10px;
-    border: 1px solid black;
-}
-
-.imgProducto {
-    width: 200px;
-    height: 200px;
-}
-
-.contenedor-info {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: red;
-    width: 200px; 
-}
-
-.marca {
-    margin-right: 5px;
-}
-
-.contenedorMarca {
-    display: flex;
-}
-
-.contenedorProcesador {
-    display: flex;
-}
-/* Fin cards productos */
-
-
 /* Estrellas de valoración */
 .contenedor-star {
     display: flex;
@@ -59,8 +10,6 @@
     width: 50px;
     height: 50px;
 }
-
-
 /* Fin estrellas de valoración */
 
 
@@ -94,9 +43,51 @@
     padding-left:0.10rem !important;
 } */
 
-/* New products */
 
-/* Fin new products */
+/* Card producto */
+.container-producto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.contenedor-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contenedorMarca {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(146,146,148);
+    font-size: 1.7rem;
+    height: 2.2rem;
+}
+
+.contenedorProcesador {
+    display: flex;
+    justify-content: center;
+    color: rgb(146,146,148);
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+    height: 2rem;
+}  
+
+.marca {
+    margin-right: 0.5rem;
+}
+
+.precio {
+    display: flex;
+    justify-content: center;
+    color: rgb(68, 68, 73);
+    font-size: 2rem;
+    height: 1.4rem;
+}
+/* Fin card producto */
 
 
 
