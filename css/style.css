@@ -61,18 +61,6 @@
 }
 
 
-/* Fin barra de navegación versión no móvil */
-
-
-/* .padding-rf {
-    padding-right:0px !important;
-}
-
-.padding-lf{
-    padding-left:0.10rem !important;
-} */
-
-
 /* Card producto */
 .txt-seccion-productos {
     margin-top: 5rem;
@@ -82,6 +70,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 2rem;
+    margin-left: 2rem;
+    border: 1px solid rgb(146,146,148);
 }
 
 .contenedor-info {
@@ -120,6 +110,16 @@
     height: 1.4rem;
 }
 /* Fin card producto */
+
+
+/* Favoritos */
+#zonadestino {
+    margin-top: 5rem;
+    width: 50rem;
+    height: 20rem;
+    border: 1px solid black;
+}
+/* Fin favoritos */
 
 
 /* Newsletter */
@@ -170,6 +170,18 @@
     height: 3rem;
 }
 /* Fin footer */
+
+
+/* Scroll up */
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: url(../img/flechaUp.png);
+}
+
+/* Fin scroll up */
 
 
 

@@ -118,7 +118,7 @@ var Ordenador = [
 for(var i = 0; i<Ordenador.length; i++){
 
     document.getElementById("productos").innerHTML +=
-    '<div class="container-producto col-sm-6 col-lg-4 col-xl-3">'+
+    '<div id="elemento'+[i]+'" draggable="true" ondragstart="drag(event)" class="container-producto col-sm-6 col-lg-4 col-xl-3">'+
         '<img class="d-block w-100" src='+Ordenador[i].img+' alt="">'+
         '<div class="contenedor-info">'+
             '<div class="contenedorMarca">'+
@@ -135,6 +135,26 @@ for(var i = 0; i<Ordenador.length; i++){
     '</div>'; 
 } 
 /* Fin funcionalidad card producto */
+
+
+
+/* Funcionalidad favoritos */
+function allowDrop(ev) {
+    ev.preventDefault();
+  }
+  
+  function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+  }
+  
+  function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+  }
+/* Fin funcionalidad favoritos */
+
+
 
 
 
