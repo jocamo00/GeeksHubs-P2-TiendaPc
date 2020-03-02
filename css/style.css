@@ -1,5 +1,5 @@
 /* Estrellas de valoración */
-.contenedor-star {
+/* .contenedor-star {
     display: flex;
     flex-wrap: wrap;
     width: 250px;
@@ -9,7 +9,7 @@
 .imgStar {
     width: 50px;
     height: 50px;
-}
+} */
 /* Fin estrellas de valoración */
 
 
@@ -62,6 +62,24 @@
 }
 
 
+/* Menu superior de productos */
+.centrar-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-superior {
+    margin-top: -6rem;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.menu-superior:hover {
+    cursor: pointer;
+}
+/* Menu superior de productos */
+
+
 /* Card producto */
 .txt-seccion-productos {
     margin-top: 5rem;
@@ -72,6 +90,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .contenedor-info {
@@ -169,7 +188,7 @@
 /*********************************************/
 
 /* Cards entradas de blog */
-/* .card-entrada {
+.card-entrada {
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
@@ -181,7 +200,8 @@
 
 .card-entrada:hover, .container-producto:hover{
     border: 1px solid rgb(146,146,148);
-    box-shadow: 3px 3px 5px 6px rgb(146,146,148);;
+    box-shadow: 3px 3px 5px 6px rgb(146,146,148);
+    cursor: pointer;
 }  
 /* Fin cards entradas de blog */
 
@@ -226,6 +246,8 @@
             /* PÁGINA CONTACTO */
 /*********************************************/
 /*********************************************/
+
+/* Formulario */
 .titulo-form {
     color: rgb(255, 255, 255);
 }
@@ -240,7 +262,7 @@
     justify-content: center;
     margin-top: 5rem;
     background-color: rgb(38,38,38);
-    padding: 4rem;
+    padding: 4rem;Fin formulario
 }
 
 .fname {
@@ -270,4 +292,6 @@
 .btn-enviar:hover {
     color: rgb(57,129,250);
 }
+
+/* Fin formulario */
 
