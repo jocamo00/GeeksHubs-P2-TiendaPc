@@ -169,7 +169,7 @@
 /*********************************************/
 
 /* Cards entradas de blog */
-.card-entrada {
+/* .card-entrada {
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
@@ -217,5 +217,57 @@
 
 .enlace-entrada {
     color: rgb(141, 43, 18);
+}
+
+
+
+/*********************************************/
+/*********************************************/
+            /* PÁGINA CONTACTO */
+/*********************************************/
+/*********************************************/
+.titulo-form {
+    color: rgb(255, 255, 255);
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+}
+.formulario-entrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    background-color: rgb(38,38,38);
+    padding: 4rem;
+}
+
+.fname {
+    height: 4rem;
+}
+
+.flastname {
+    height: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.femail {
+    height: 4rem;
+}
+
+.fcom {
+    height: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-enviar {
+    height: 4rem;
+}
+
+.btn-enviar:hover {
+    color: rgb(57,129,250);
 }
 
