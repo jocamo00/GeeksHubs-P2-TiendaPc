@@ -87,15 +87,6 @@ var Ordenador = [
     },
     {
         img:"img/Apple_macBookAir_i3.jpg",
-        marca:"Apple",
-        modelo:"MacBook Air",
-        procesador:"i3",
-        ram:"8GB",
-        hd:"128GB SSD",
-        precio:"1099€"
-    },
-    {
-        img:"img/lenovo_ideapad_i3.jpg",
         marca:"Lenovo",
         modelo:"Ideapad",
         procesador:"i3",
@@ -112,13 +103,23 @@ var Ordenador = [
         ram:"8GB",
         hd:"128GB SSD",
         precio:"1099€"
-    }
+    },
+    {
+        img:"img/Apple_macBookAir_i3.jpg",
+        marca:"Lenovo",
+        modelo:"Ideapad",
+        procesador:"i3",
+        ram:"8GB",
+        hd:"250GB SSD",
+        precio:"349€"
+                
+    },
 ]
 
 for(var i = 0; i<Ordenador.length; i++){
 
     document.getElementById("productos").innerHTML +=
-    '<div id="elemento'+[i]+'" draggable="true" ondragstart="drag(event)" class="container-producto col-sm-6 col-lg-4 col-xl-3">'+
+    '<div id="elemento'+[i]+'" class="container-producto col-sm-6 col-lg-4 col-xl-3">'+
         '<img class="d-block w-100" src='+Ordenador[i].img+' alt="">'+
         '<div class="contenedor-info">'+
             '<div class="contenedorMarca">'+
@@ -133,26 +134,12 @@ for(var i = 0; i<Ordenador.length; i++){
             '<p class="precio">'+Ordenador[i].precio+'</p>'+    
         '</div>'+   
     '</div>'; 
-} 
+}  
 /* Fin funcionalidad card producto */
 
 
 
-/* Funcionalidad favoritos */
-function allowDrop(ev) {
-    ev.preventDefault();
-  }
-  
-  function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-  }
-  
-  function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
-  }
-/* Fin funcionalidad favoritos */
+
 
 
 

@@ -28,6 +28,7 @@
     color: rgb(255, 255, 255);
 }
 
+
 .slider {
     margin-top: 0.10rem;
     background-size: cover;
@@ -64,14 +65,13 @@
 /* Card producto */
 .txt-seccion-productos {
     margin-top: 5rem;
+    font-size: 5rem;
 }
 .container-producto {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 2rem;
-    margin-left: 2rem;
-    border: 1px solid rgb(146,146,148);
 }
 
 .contenedor-info {
@@ -110,16 +110,6 @@
     height: 1.4rem;
 }
 /* Fin card producto */
-
-
-/* Favoritos */
-#zonadestino {
-    margin-top: 5rem;
-    width: 50rem;
-    height: 20rem;
-    border: 1px solid black;
-}
-/* Fin favoritos */
 
 
 /* Newsletter */
@@ -172,18 +162,60 @@
 /* Fin footer */
 
 
-/* Scroll up */
-#scrollUp {
-    bottom: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-    background: url(../img/flechaUp.png);
+/*********************************************/
+/*********************************************/
+            /* PÁGINA BLOG */
+/*********************************************/
+/*********************************************/
+
+/* Cards entradas de blog */
+.card-entrada {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+    align-items: center;
+
 }
 
-/* Fin scroll up */
+.card-entrada:hover, .container-producto:hover{
+    border: 1px solid rgb(146,146,148);
+    box-shadow: 3px 3px 5px 6px rgb(146,146,148);;
+}  
+/* Fin cards entradas de blog */
 
 
+.txt-seccion-entrada {
+    margin-top: 5rem;
+    font-size: 5rem;
+}
 
+.linea-entrada {
+    height: 0.15rem;
+    width: 10rem;
+    background-color: rgb(57,129,250);
+}
 
+.info-entrada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-entrada {
+    font-size: xx-large;
+}
+
+.fecha-entrada {
+    color: rgb(57,129,250);
+}
+
+.descripcion-entrada {
+    text-align: justify;
+}
+
+.enlace-entrada {
+    color: rgb(141, 43, 18);
+}
 
