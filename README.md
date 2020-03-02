@@ -23,6 +23,9 @@ _Una vez descargado y descomprimido, ejecuta preferiblemente el archivo index.ht
 * [Bootstrap](https://getbootstrap.com/) - El framework web usado
 * [VSCode](https://code.visualstudio.com/) - Editor de código usado
 * [GitHub](https://github.com/) - Control de versiones
+* [HTML5]
+* [CSS3]
+* [JavaScript]
 
 
 ## Wiki 📖
