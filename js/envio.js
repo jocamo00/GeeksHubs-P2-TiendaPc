@@ -6,8 +6,8 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"250GB SSD",
-        precio:"349€",
-        valoracion:"★"
+        precio:"349€"
+                
     },
     {
         img:"img/Apple_macBookAir_i3.jpg",
@@ -16,8 +16,7 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"128GB SSD",
-        precio:"1099€",
-        valoracion:"★"
+        precio:"1099€"
     },
     {
         img:"img/lenovo_ideapad_i3.jpg",
@@ -26,8 +25,8 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"250GB SSD",
-        precio:"349€",
-        valoracion:"★"      
+        precio:"349€"
+                
     },
     {
         img:"img/Apple_macBookAir_i3.jpg",
@@ -36,8 +35,7 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"128GB SSD",
-        precio:"1099€",
-        valoracion:"★"
+        precio:"1099€"
     },
     {
         img:"img/lenovo_ideapad_i3.jpg",
@@ -46,8 +44,7 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"250GB SSD",
-        precio:"349€",
-        valoracion:"★"
+        precio:"349€"
                 
     },
     {
@@ -57,8 +54,7 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"128GB SSD",
-        precio:"1099€",
-        valoracion:"★"
+        precio:"1099€"
     },
     {
         img:"img/lenovo_ideapad_i3.jpg",
@@ -67,8 +63,7 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"250GB SSD",
-        precio:"349€",
-        valoracion:"★"
+        precio:"349€"
                 
     },
     {
@@ -78,8 +73,7 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"128GB SSD",
-        precio:"1099€",
-        valoracion:"★"
+        precio:"1099€"
     },
     {
         img:"img/lenovo_ideapad_i3.jpg",
@@ -88,8 +82,7 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"250GB SSD",
-        precio:"349€",
-        valoracion:"★"
+        precio:"349€"
                 
     },
     {
@@ -99,8 +92,7 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"250GB SSD",
-        precio:"349€",
-        valoracion:"★"
+        precio:"349€"
                 
     },
     {
@@ -110,8 +102,7 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"128GB SSD",
-        precio:"1099€",
-        valoracion:"★"
+        precio:"1099€"
     },
     {
         img:"img/Apple_macBookAir_i3.jpg",
@@ -120,13 +111,11 @@ var Ordenador = [
         procesador:"i3",
         ram:"8GB",
         hd:"250GB SSD",
-        precio:"349€",
-        valoracion:"★"
+        precio:"349€"
                 
-    }, 
+    },
 ]
 
-for(var i = 0; i<Ordenador.length; i++){
 
     document.getElementById("productos").innerHTML +=
     '<div id="elemento'+[i]+'" class="container-producto col-sm-6 col-lg-4 col-xl-3">'+
@@ -141,26 +130,9 @@ for(var i = 0; i<Ordenador.length; i++){
                 '<p class="ram">/ '+Ordenador[i].ram+'</p>'+
                 '<p class="hd"> / '+Ordenador[i].hd+'</p>'+
             '</div>'+
-            '<p class="precio">'+Ordenador[i].precio+'</p>'+
-           
-            '<div id="estrella'+[i]+'">' 
-            
-                for(let k = 0; k < 5; k++){
-                    document.getElementById("estrella"+[i]).innerHTML +=
-                        '<input id="radio'+i+k+'" type="radio" name="estrellas" value="1">'+
-                        '<label for="radio'+i+k+'">★</label>'
-                }
-            
-            '</div>'+
-        '</div>'+   
+            '<p class="precio">'+Ordenador[i].precio+'</p>'+   
+            '<p class="precio">'+Ordenador[i].envio+'</p>'+   
+        '</div>'+
+         
     '</div>'; 
-}  
-
-
-
-
-
-
-
-
-
+}

@@ -38,6 +38,8 @@
 
 
 /* Barra navegación versión NO móvil */
+.nav-fixed{position:fixed;}
+
 .container-navEscritorio {
     display: flex;
     align-items: center;
@@ -49,8 +51,8 @@
 .container-nav-enlaces {
     display: flex;
     justify-content: space-between;
-    width: 20rem;
-    
+    height: 100%;
+    width: 20rem; 
 }
 
 .nav-enlaces {
@@ -83,7 +85,7 @@
 /* Card producto */
 .txt-seccion-productos {
     margin-top: 5rem;
-    font-size: 5rem;
+    font-size: 6vw;
 }
 .container-producto {
     display: flex;
@@ -181,6 +183,46 @@
 /* Fin footer */
 
 
+/*Estrellas valoración*/
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+/*Fin estrellas valoración*/
+
+
 /*********************************************/
 /*********************************************/
             /* PÁGINA BLOG */
@@ -208,7 +250,7 @@
 
 .txt-seccion-entrada {
     margin-top: 5rem;
-    font-size: 5rem;
+    font-size: 6vw;
 }
 
 .linea-entrada {
