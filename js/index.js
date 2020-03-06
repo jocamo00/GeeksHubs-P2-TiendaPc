@@ -122,11 +122,12 @@ var Ordenador = [
         hd:"250GB SSD",
         precio:"349€",
         valoracion:"★"
-                
     }, 
 ]
 
-for(var i = 0; i<Ordenador.length; i++){
+let val;
+
+for(let i = 0; i<Ordenador.length; i++){
 
     document.getElementById("productos").innerHTML +=
     '<div id="elemento'+[i]+'" class="container-producto col-sm-6 col-lg-4 col-xl-3">'+
@@ -147,14 +148,30 @@ for(var i = 0; i<Ordenador.length; i++){
             
                 for(let k = 0; k < 5; k++){
                     document.getElementById("estrella"+[i]).innerHTML +=
-                        '<input id="radio'+i+k+'" type="radio" name="estrellas" value="1">'+
+                        '<input id="radio'+i+k+'" type="radio" name="estrellas" value="'+k+'" onclick="myFunction()">'+
                         '<label for="radio'+i+k+'">★</label>'
-                }
+
+                        function myFunction() {
+                            let r = document.getElementById("radio"+i+k);
+                            console.log(r)
+                            //console.log(r.getAttribute("value"));
+                            //val = r.getAttribute("value");
+                            //let suma = Number(val) +100;
+                            //console.log(val);
+                        }
+
+                        /* let r = document.getElementById("radio"+i+k);
+                        val = r.getAttribute("value"); */
             
             '</div>'+
         '</div>'+   
     '</div>'; 
-}  
+                }  
+
+}
+
+                    /* let suma = Number(val) +100;
+                    console.log(suma); */
 
 
 
