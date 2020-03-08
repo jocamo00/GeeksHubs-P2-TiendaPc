@@ -123,15 +123,13 @@ var Ordenador = [
         precio:"349€",
         valoracion:"★"
     }
-]
+] 
 
 
-let val;
-
+let d, a;
 for(let i = 0; i<Ordenador.length; i++){
 
     document.getElementById("productos").innerHTML += '<div id="elemento'+[i]+'" class="container-producto col-sm-6 col-lg-4 col-xl-3">'+
-        //'<button id="btnFavorito'+[i]+'" onclick="favoritos()">favoritos</button>'+
         '<img class="d-block w-100" src='+Ordenador[i].img+' alt="">'+
         '<div class="contenedor-info">'+
             '<div class="contenedorMarca">'+
@@ -146,6 +144,8 @@ for(let i = 0; i<Ordenador.length; i++){
             '<p class="precio">'+Ordenador[i].precio+'</p>'+
            
             '<div id="estrella'+[i]+'">' 
+
+            
             
                 for(let k = 0; k < 5; k++){
                     document.getElementById("estrella"+[i]).innerHTML +=
@@ -161,45 +161,36 @@ for(let i = 0; i<Ordenador.length; i++){
                             //console.log(val);
                         } */
 
-                        /* function myFunction() {
-                            let radio = document.getElementById("radio"+[i]+[k]);
-                            console.log(r);
-                        } */
-                        
-
-
-                        
-
-                        /* let r = document.getElementById("radio"+i+k);
-                        val = r.getAttribute("value"); */
                 }
             '</div>'+
         '</div>'+   
     '</div>'; 
+
+    /* function mostrarPrecio(){
+        d = document.getElementById("elemento"+[i]).childNodes[1].childNodes[2].textContent;
+        document.getElementById("desglose").innerHTML += d;
+    } */
+    
 }
 
- 
 
 
 
-/* let favoritos = [];
-let elemento = document.getElementById("elemento0");
-
-
-favoritos.push(elemento);
-
-console.log(favoritos); */
-/* document.getElementById("favoritos").innerHTML += '<div id="jose"></div>'; */
-
-//console.log(elemento);
+   
 
 
 
 
-var container;
+
+/******DRAG AND DROP COMPRA PRODUCTOS *****/
+/* var container;
+let arrayCompra = [];
+let nuevoArrayCompra=[];
+let prueba, prueba2;
+
      
         function init(){
-            container = document.querySelector('.carrito');
+            container = document.querySelector('.compra');
             container.addEventListener('dragover', dragSobreContainer, false);
             container.addEventListener('dragleave', dragSalioContainer, false);
             container.addEventListener('drop', manejarDrop, false);
@@ -229,9 +220,21 @@ var container;
         function manejarDrop(e){
             e.preventDefault();
             var datos = e.dataTransfer.getData('text');
-            this.innerHTML += datos;
+            //this.innerHTML += datos;
+            arrayCompra.push(datos);
 
-        }
+            document.getElementById("oculto").innerHTML = arrayCompra;
+
+
+           prueba = document.getElementById("oculto").childNodes;
+          
+
+            for(let c = 0; c < prueba.length; c++){
+                document.getElementById("desglose").innerHTML += prueba[c].childNodes[1].childNodes[2].textContent;
+             
+            } 
+
+        } 
 
         function dragSobreContainer(e){
             e.preventDefault();
@@ -247,8 +250,20 @@ var container;
         function dragFinalizado(e){
             //this.style.backgroundColor='red';
             
-            
-        }
+        } */
+
+
+        
+           
+        
+        
+        
+
+
+ 
+
+
+
 
 
 

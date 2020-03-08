@@ -82,6 +82,44 @@
 /* Menu superior de productos */
 
 
+
+/*contenido productos*/
+.contenedor-productos {
+    margin: 0;
+    display: flex;
+}
+
+.fondo{
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    /* margin: 0; */
+}
+
+.compra {
+    height: 5rem;
+}
+
+.desglose{
+    padding: 0;
+    display: flex;
+    height:60rem;
+}
+
+#oculto{
+    visibility: hidden;
+}
+
+/* .over{
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.1);
+}
+ */
+
+
+
 /* Card producto */
 .txt-seccion-productos {
     margin-top: 5rem;
@@ -343,15 +381,5 @@
 
 
 
-.carrito{
-    display: flex;
-    width: 1000px;
-    height:500px;
-    background-color: khaki;
-}
 
-.over{
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
-    -webkit-transform: scale(1.1);
-}
 
