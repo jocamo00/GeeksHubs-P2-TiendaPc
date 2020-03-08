@@ -40,23 +40,24 @@
 /* Barra navegación versión NO móvil */
 .nav-fixed{position:fixed;}
 
-.container-navEscritorio {
-    display: flex;
-    align-items: center;
+/* .container-navEscritorio {
     background-color: rgb(57,129,250);
+   display: flex;
+    align-items: center;
     height: 5rem;
-    margin-top: 0.05rem; 
-}
+    margin-top: 0.05rem;  
+} */
 
-.container-nav-enlaces {
+/* .container-nav-enlaces {
     display: flex;
     justify-content: space-between;
     height: 100%;
-    width: 20rem; 
-}
+    width: 20rem;  
+} */
 
 .nav-enlaces {
-    color: rgb(255, 255, 255);
+    color: rgb(146,146,148);
+
 }
 
 .nav-enlaces:hover {
