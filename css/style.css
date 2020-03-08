@@ -385,7 +385,7 @@
 .formulario {
     height: 25rem;
     padding-top: 12rem;
-    padding-bottom: 25rem;
+    padding-bottom: 35rem;
 }
 .form {
     width: 100%;
@@ -405,4 +405,31 @@
 }
 
 
+/*********************************************/
+/*********************************************/
+            /* PÁGINA CONTACTO */
+/*********************************************/
+/*********************************************/
+/* .formulario-contacto {
+    margin-bottom: 30rem;
+} */
 
+.img-contacto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-contacto {
+    width: 20rem;
+}
+
+.input-contacto {
+    margin-top: 2rem;
+    height: 4rem;
+}
+
+.btn-contacto {
+    width: 12rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(57,129,250);
+}

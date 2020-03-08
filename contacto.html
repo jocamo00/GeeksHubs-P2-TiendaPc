@@ -6,8 +6,9 @@
     <title>Tienda Pc</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -81,7 +82,9 @@
       <!-- Fin cabecera -->
 
 
-      <div class="container-fluid container-form">
+     <!-- Formulario -->
+
+      <!-- <div class="container-fluid container-form">
 
         <div class="row">
             <div class="col-12 formulario-entrada">
@@ -94,9 +97,43 @@
             </div>
         </div>
         
+      </div> -->
+      <!-- Fin formulario -->
+
+      <div class="container contenedor formulario">
+
+        <form class="formulario-contacto">
+          <div class="img-contacto container-fluid">
+            <img src="img/contacto.png" alt="" class="img-contacto">
+          </div>
+          
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control input-contacto" placeholder="Nombre">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control input-contacto" placeholder="Apellido">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="email" class="form-control input-contacto" id="exampleFormControlInput1" placeholder="Email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <textarea class="form-control input-contacto" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba un comentario"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col img-contacto">
+              <button type="submit" class="btn btn-primary input-contacto btn-contacto">Enviar</button>
+            </div>
+          </div>
+          
+        </form>
+  
       </div>
-     <!-- Formulario -->
-   
 
 
 
