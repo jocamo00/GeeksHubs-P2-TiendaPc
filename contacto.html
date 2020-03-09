@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Pc</title>
 
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
     <!-- CSS -->
-    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -82,23 +84,6 @@
       <!-- Fin cabecera -->
 
 
-     <!-- Formulario -->
-
-      <!-- <div class="container-fluid container-form">
-
-        <div class="row">
-            <div class="col-12 formulario-entrada">
-                <h2 class="titulo-form">Formulario de contacto</h2>
-                <input type="text" id="fname" class="fname" placeholder="Nombre*">
-                <input type="text" id="flastname" class="flastname" placeholder="Apellidos* ">
-                <input type="text" id="femail" class="femail" placeholder="Email*">
-                <input type="text" id="fcom" class="fcom" placeholder="Comentario">
-                <button class="btn-enviar">Enviar</button> 
-            </div>
-        </div>
-        
-      </div> -->
-      <!-- Fin formulario -->
 
       <div class="container contenedor formulario">
 
@@ -109,15 +94,15 @@
           
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control input-contacto" placeholder="Nombre">
+              <input id="nombre" type="text" class="form-control input-contacto" placeholder="Nombre" required>
             </div>
             <div class="col">
-              <input type="text" class="form-control input-contacto" placeholder="Apellido">
+              <input id="apellido" type="text" class="form-control input-contacto" placeholder="Apellido" required>
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <input type="email" class="form-control input-contacto" id="exampleFormControlInput1" placeholder="Email">
+              <input id="email" type="email" class="form-control input-contacto" id="exampleFormControlInput1" placeholder="Email" required>
             </div>
           </div>
           <div class="row">
@@ -127,7 +112,7 @@
           </div>
           <div class="row">
             <div class="col img-contacto">
-              <button type="submit" class="btn btn-primary input-contacto btn-contacto">Enviar</button>
+              <button type="submit" class="btn btn-primary input-contacto btn-contacto" id="btn-enviar">Enviar</button>
             </div>
           </div>
           
@@ -166,7 +151,7 @@
       
 
     <!-- JavaScript -->
-    <script src="js/blog.js"></script>
+    <script src="js/validacionContacto.js"></script>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

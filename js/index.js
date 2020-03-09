@@ -20,33 +20,33 @@ var Ordenador = [
         valoracion:"★"
     },
     {
-        img:"img/lenovo_ideapad_i3.jpg",
-        marca:"Lenovo",
-        modelo:"Ideapad",
-        procesador:"i3",
-        ram:"8GB",
-        hd:"250GB SSD",
-        precio:"349€",
+        img:"img/msi-gf65.jpg",
+        marca:"MSI",
+        modelo:"GF65",
+        procesador:"i5",
+        ram:"16GB",
+        hd:"512GB SSD",
+        precio:"898€",
         valoracion:"★"      
     },
     {
-        img:"img/Apple_macBookAir_i3.jpg",
-        marca:"Apple",
-        modelo:"MacBook Air",
-        procesador:"i3",
-        ram:"8GB",
-        hd:"128GB SSD",
-        precio:"1099€",
+        img:"img/Asus-fx505dv.jpg",
+        marca:"Asus",
+        modelo:"TUF Gaming",
+        procesador:"73",
+        ram:"16GB",
+        hd:"256GB SSD",
+        precio:"898€",
         valoracion:"★"
     },
     {
-        img:"img/lenovo_ideapad_i3.jpg",
-        marca:"Lenovo",
-        modelo:"Ideapad",
-        procesador:"i3",
-        ram:"8GB",
-        hd:"250GB SSD",
-        precio:"349€",
+        img:"img/HP-Pavilion.jpg",
+        marca:"HP",
+        modelo:"Pavilion",
+        procesador:"i5",
+        ram:"16GB",
+        hd:"512GB SSD",
+        precio:"699€",
         valoracion:"★"
                 
     },
@@ -82,6 +82,17 @@ var Ordenador = [
         valoracion:"★"
     },
     {
+        img:"img/Asus-fx505dv.jpg",
+        marca:"Asus",
+        modelo:"TUF Gaming",
+        procesador:"73",
+        ram:"16GB",
+        hd:"256GB SSD",
+        precio:"898€",
+        valoracion:"★"
+                
+    },
+    {
         img:"img/lenovo_ideapad_i3.jpg",
         marca:"Lenovo",
         modelo:"Ideapad",
@@ -93,40 +104,29 @@ var Ordenador = [
                 
     },
     {
-        img:"img/Apple_macBookAir_i3.jpg",
-        marca:"Lenovo",
-        modelo:"Ideapad",
-        procesador:"i3",
-        ram:"8GB",
-        hd:"250GB SSD",
-        precio:"349€",
-        valoracion:"★"
-                
-    },
-    {
-        img:"img/Apple_macBookAir_i3.jpg",
-        marca:"Apple",
-        modelo:"MacBook Air",
-        procesador:"i3",
-        ram:"8GB",
-        hd:"128GB SSD",
-        precio:"1099€",
+        img:"img/HP-Pavilion.jpg",
+        marca:"HP",
+        modelo:"Pavilion",
+        procesador:"i5",
+        ram:"16GB",
+        hd:"512GB SSD",
+        precio:"699€",
         valoracion:"★"
     },
     {
-        img:"img/Apple_macBookAir_i3.jpg",
-        marca:"Lenovo",
-        modelo:"Ideapad",
-        procesador:"i3",
-        ram:"8GB",
-        hd:"250GB SSD",
-        precio:"349€",
-        valoracion:"★"
+        img:"img/msi-gf65.jpg",
+        marca:"MSI",
+        modelo:"GF65",
+        procesador:"i5",
+        ram:"16GB",
+        hd:"512GB SSD",
+        precio:"898€",
+        valoracion:"★" 
     }
 ] 
 
 
-let d, a;
+
 for(let i = 0; i<Ordenador.length; i++){
 
     document.getElementById("productos").innerHTML += '<div id="elemento'+[i]+'" class="container-producto col-sm-6 col-lg-4 col-xl-3">'+
