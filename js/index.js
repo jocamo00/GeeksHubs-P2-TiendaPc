@@ -176,11 +176,6 @@ for(let i = 0; i<Ordenador.length; i++){
 
 
 
-   
-
-
-
-
 
 /******DRAG AND DROP COMPRA PRODUCTOS *****/
 /* var container;

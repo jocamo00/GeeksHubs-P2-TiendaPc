@@ -17,6 +17,22 @@ _Solo te será necesario descargar el proyecto y un navegador web para poder eje
 _Una vez descargado y descomprimido, ejecuta preferiblemente el archivo index.html_
 
 
+## Video
+(https://www.youtube.com/watch?v=UrRvYLBpE4w)
+
+## Imagenes
+
+![Screenshot](Selección_007.png)
+![Screenshot](Selección_008.png)
+![Screenshot](Selección_009.png)
+![Screenshot](Selección_010.png)
+![Screenshot](Selección_011.png)
+![Screenshot](Selección_012.png)
+![Screenshot](Selección_013.png)
+![Screenshot](Selección_014.png)
+![Screenshot](Selección_015.png)
+
+
 ## Construido con 🛠️
 
 
@@ -30,17 +46,14 @@ _Una vez descargado y descomprimido, ejecuta preferiblemente el archivo index.ht
 
 ## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/jocamo00/GeeksHubs-P2-TiendaPc.git)
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/jocamo00/GeeksHubs-P2-TiendaPc)
 
 ## Versionado 📌
 
-Usamos [GitHub](https://github.com/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/jocamo00/GeeksHubs-P2-TiendaPc.git).
+Usamos [GitHub](https://github.com/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/jocamo00/GeeksHubs-P2-TiendaPc).
 
 ## Autores ✒️
 
-* **Jose Carreres** - *Todo el trabajo* - [jocamo00](https://github.com/jocamo00)
+* **Jose Carreres** - [jocamo00](https://github.com/jocamo00)
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia http://www.apache.org/licenses/LICENSE-2.0
 
