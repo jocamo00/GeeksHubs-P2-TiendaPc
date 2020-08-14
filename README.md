@@ -22,7 +22,6 @@ _Una vez descargado y descomprimido, ejecuta preferiblemente el archivo index.ht
 
 ## Imagenes
 
-![Screenshot](Selección_007.png)
 ![Screenshot](Selección_008.png)
 ![Screenshot](Selección_009.png)
 ![Screenshot](Selección_010.png)
